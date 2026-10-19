@@ -1,0 +1,32 @@
+# A 9x9 practice game: Black walls off column E, White walls off column F.
+# Each side plays one wall stone per turn, then Black passes, White plays a
+# loose stone at B5 inside Black's area, Black passes, and White passes to end
+# the game. The B5 stone is marked dead at scoring time.
+name Wall practice
+size 9
+komi 6.5
+rules japanese
+1 B E1
+2 W F1
+3 B E2
+4 W F2
+5 B E3
+6 W F3
+7 B E4
+8 W F4
+9 B E5
+10 W F5
+11 B E6
+12 W F6
+13 B E7
+14 W F7
+15 B E8
+16 W F8
+17 B E9
+18 W F9
+19 B pass
+20 W B5
+21 B pass
+22 W pass
+dead B5
+result B+3.5
